@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./style.css";
 import NewTodoForm from "./NewTodoForm";
 import TodoList from "./TodoList";
+import Summary from "./Summary";
 
 function App() {
   const [todos, setTodos] = useState(() => {
@@ -52,6 +53,8 @@ function App() {
           toggleTodo={toggleTodo}
           deleteTodo={deleteTodo}
         />
+        <Summary todos={todos} 
+                deleteTodo={deleteTodo} />
       </div>
     </div>
   );
