@@ -44,8 +44,15 @@ function App() {
     <div className="container">
       <h1>TODO</h1>
       <NewTodoForm onSubmit={addTodo} />
-      <h1 className="header">Todo List</h1>
-      <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
+      {/* <h1 className="header">Todo List</h1>
+       */}
+      <div className="todo-list">
+        <TodoList
+          todos={todos}
+          toggleTodo={toggleTodo}
+          deleteTodo={deleteTodo}
+        />
+      </div>
     </div>
   );
 }
