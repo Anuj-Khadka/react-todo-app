@@ -5,7 +5,7 @@ const Summary = ({ todos, deleteTodo }) => {
     <div className="summary">
       <span>{todos.length} items left</span>
       <span>
-        <button>Clear Completed</button>
+        <button className="clear-completed">Clear Completed</button>
       </span>
     </div>
   );
