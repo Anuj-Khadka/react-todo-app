@@ -16,8 +16,9 @@ body {
 }
 
 .container {
-  width: minmax(40vw, 90vw);
   display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
   padding: 2rem;
 }
 
@@ -37,7 +38,7 @@ body {
   align-items: center;
 }
 
-#add-btn{
+#add-btn {
   background: none;
   border: none;
 }
@@ -167,3 +168,9 @@ body {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 } */
+
+@media screen and (min-width:800px) {
+  .container {
+    width: 50vw;
+  }
+}
