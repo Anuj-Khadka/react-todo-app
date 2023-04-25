@@ -30,20 +30,54 @@ body {
 .row {
   background: #24273d;
   width: 100%;
-  padding: 1rem;
+  padding: 0.3rem 1rem;
+  margin-bottom: 2.5rem;
   border-radius: 0.4rem;
   display: flex;
   align-items: center;
 }
 
 .row span {
+  padding: 0.5rem;
   margin-right: 0.5rem;
+  color: #afb2d8;
 }
 
 .row input {
+  min-width: 85%;
   outline: none;
   background: transparent;
-  /* border: none; */
+  border: none;
   padding: 0.5rem;
   color: #fcfcf8;
+}
+
+.row input::placeholder {
+  color: #afb2d8;
+  font-size: 1rem;
+}
+
+.todo-list {
+  background: #24273d;
+  padding: 0.5rem 1rem;
+}
+
+.todo-list > ul{
+  /* background: red; */
+}
+
+.todo-list > ul > li{
+  list-style: none;
+  border-bottom: solid 1px #53556C;
+  padding: 0.9rem 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #AFB2D8;
+}
+
+
+.todo-list > ul > li > span{
+  margin-right: 0.8rem;
+  cursor: pointer;
 }
