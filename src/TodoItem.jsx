@@ -4,7 +4,7 @@ import { MdDeleteOutline } from "react-icons/md";
 const TodoItem = ({ completed, id, title, toggleTodo, deleteTodo }) => {
   return (
     <li key={id}>
-      {/* <label htmlFor="">
+      {/* <label>
         <input
           type="checkbox"
           checked={completed}
