@@ -13,7 +13,7 @@ const TodoItem = ({ completed, id, title, toggleTodo, deleteTodo }) => {
         {title}
       </label>
       <span className="btn btn-danger" onClick={() => deleteTodo(id)}>
-        <MdDeleteOutline />
+        <MdDeleteOutline size="1.5rem"/>
       </span>
     </li>
   );
