@@ -53,8 +53,7 @@ function App() {
           toggleTodo={toggleTodo}
           deleteTodo={deleteTodo}
         />
-        <Summary todos={todos} 
-                deleteTodo={deleteTodo} />
+        <Summary todos={todos} deleteTodo={deleteTodo} />
       </div>
     </div>
   );
