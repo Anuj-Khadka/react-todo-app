@@ -16,7 +16,7 @@ const NewTodoForm = ({ onSubmit }) => {
       <div className="row">
         {/* <label htmlFor="item">New Item</label> */}
         <button id="add-btn" className="btn">
-          <MdAddCircleOutline color="#afb2d8" size="1.8rem"/>
+          <MdAddCircleOutline color="#afb2d8" size="1.8rem" />
         </button>
         <input
           type="text"
