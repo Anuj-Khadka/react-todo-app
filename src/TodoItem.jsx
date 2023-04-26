@@ -18,9 +18,7 @@ const TodoItem = ({ completed, id, title, toggleTodo, deleteTodo }) => {
           checked={completed}
           onChange={(e) => toggleTodo(id, e.target.checked)}
           className={completed ? "completed" : ""}
-          onClick={() => {
-            completed ? completeTask() : null;
-          }}
+          dataFilter={completed ? "completed all" : "active all"}
         />
         <p className="todo-item">{title}</p>
         <span className="checkmark"></span>
