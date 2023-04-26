@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
+import Isotope from "isotope-layout";
 
-const Summary = ({ todos, clearCompleted}) => {
+const Summary = ({ todos, clearCompleted }) => {
   return (
     <div className="summary">
-      <span>{todos.length} items left</span>
-      <span>
+      <div>{todos.length} items left</div>
+      <div className="filters">
+        <button className="active filter-button" data-filter=".all">
+          All
+        </button>
+        <button data-filter=".completed" className="filter-button">
+          Active
+        </button>
+        <button data-filter=".incomplete" className="filter-button">
+          Incomplete
+        </button>
+      </div>
+      <div>
         <button className="clear-completed" onClick={clearCompleted}>
           Clear Completed
         </button>
-      </span>
+      </div>
     </div>
   );
 };
