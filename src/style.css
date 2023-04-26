@@ -144,9 +144,31 @@ body {
   /* border-top: solid 5px white; */
 }
 
+.summary {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: #53556c;
+  /* background-color: green; */
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
 
+.summary .clear-completed {
+  background: transparent;
+  border: none;
+  color: #53556c;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
 
-@media screen and (min-width:800px) {
+.summary .clear-completed:hover{
+  color: #407CF5;
+}
+
+/* Responsive  */
+
+@media screen and (min-width: 800px) {
   .container {
     width: 50vw;
   }
