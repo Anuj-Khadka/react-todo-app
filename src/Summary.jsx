@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 
-const Summary = ({ todos, deleteTodo }) => {
+const Summary = ({ todos, clearCompleted}) => {
   return (
     <div className="summary">
       <span>{todos.length} items left</span>
       <span>
-        <button className="clear-completed">Clear Completed</button>
+        <button className="clear-completed" onClick={clearCompleted}>
+          Clear Completed
+        </button>
       </span>
     </div>
   );
