@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdDeleteOutline } from "react-icons/md";
 
 const TodoItem = ({ completed, id, title, toggleTodo, deleteTodo }) => {
+  const [completedTask, setCompletedTask] = useState([]);
+  const completedTasks = document.getElementsByClassName("completed");
+  setCompletedTask((completedTask) => {
+    return [...completedTask];
+  });
   return (
     <li key={id}>
       {/* <label>
@@ -17,6 +22,7 @@ const TodoItem = ({ completed, id, title, toggleTodo, deleteTodo }) => {
           type="checkbox"
           checked={completed}
           onChange={(e) => toggleTodo(id, e.target.checked)}
+          className={completed ? "completed" : ""}
         />
         <p className="todo-item">{title}</p>
         <span className="checkmark"></span>
