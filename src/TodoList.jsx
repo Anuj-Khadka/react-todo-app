@@ -15,7 +15,6 @@ const TodoList = ({ todos, toggleTodo, deleteTodo }) => {
               />
             );
           })
-          
         : "No Todo Item"}
     </ul>
   );
