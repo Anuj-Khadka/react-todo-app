@@ -145,7 +145,7 @@ body {
 }
 
 .summary {
-  font-size: 1rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
   color: #53556c;
@@ -164,6 +164,20 @@ body {
 
 .summary .clear-completed:hover{
   color: #407CF5;
+}
+
+.summary .filter-button{
+  background: transparent;
+  border: none;
+  color: #53556c;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.summary .filter-button:hover{
+  color: #407cf5b3;
 }
 
 /* Responsive  */
