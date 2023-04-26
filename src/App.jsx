@@ -41,10 +41,9 @@ function App() {
     });
   };
 
-
-  const clearCompleted= ()=> {
+  const clearCompleted = () => {
     setTodos((prevTodos) => prevTodos.filter((todo) => !todo.completed));
-  }
+  };
 
   return (
     <div className="container">
@@ -58,7 +57,10 @@ function App() {
           toggleTodo={toggleTodo}
           deleteTodo={deleteTodo}
         />
-        <Summary todos={todos} clearCompleted={clearCompleted} />
+        <Summary
+          todos={todos}
+          clearCompleted={clearCompleted}
+        />
       </div>
     </div>
   );
