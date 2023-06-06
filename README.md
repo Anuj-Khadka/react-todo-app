@@ -1,6 +1,7 @@
 # react-todo-app
 > Stay organized with our React Todo App!
-![Demo Video](documentations/vids/react-todo-gif.webm)
+
+![react-todo-gif](react-todo-gif)
 
 ## Table of Content 
 - [General Info](#general-info)
