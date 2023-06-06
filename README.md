@@ -54,6 +54,14 @@ npm run dev
 - Open the port in your browser `localhost:5173/` <br/>
 
 
+## Features
+- Stores your tasks for later uses.
+- Delete task
+- Clear all completed tasks with one click.
+- Sort between the active, all and completed tasks.
+- live count of all the tasks.
+
+
 ## Other Details
  <p align="left">
     <img src="https://img.shields.io/github/contributors/anuj-khadka/react-todo-app?style=for-the-badge" />
