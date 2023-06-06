@@ -1,7 +1,11 @@
 # react-todo-app
 > Stay organized with our React Todo App!
 
-![react-todo-gif](react-todo-gif)
+<video>
+  <source src="documentations/vids/react-todo-gif.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Table of Content 
 - [General Info](#general-info)
