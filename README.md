@@ -30,4 +30,8 @@ npm run dev
 
 
 ## Other Details
-
+ <p align="left">
+    <img src="https://img.shields.io/github/contributors/anuj-khadka/react-todo-app?style=for-the-badge" />
+    <img src="https://img.shields.io/github/commit-activity/t/Anuj-Khadka/react-todo-app?style=for-the-badge" />
+    <img src="https://img.shields.io/github/forks/anuj-khadka/react-todo-app?style=for-the-badge" />
+</p>
