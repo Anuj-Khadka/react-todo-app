@@ -4,12 +4,14 @@
 ## Table of Content 
 - [General Info](#general-info)
 - [Technologies](#technologies)
-- [Glimpese](#glimpse)
+- [Glimpse](#glimpse)
 - [How to Run](#how-to-run)
     - [Live Demo](#live-demo)
     - [Run Locally](#run-locally)
 - [Features](#features)
 - [Other Details](#other-details)
+
+## General Info
 
 ## Technologies
 This calculator application leverages the power core web technologies of HTML for structure, CSS for styling, JavaScript for logic, and React.js for building modern and interactive components, resulting in a seamless and feature-rich calculator interface. 
@@ -28,6 +30,11 @@ This calculator application leverages the power core web technologies of HTML fo
         <img src="https://img.shields.io/badge/React-61DBFB?style=for-the-badge&logo=React&logoColor=blue"
             alt="react" />
     </a>
+</p>
+
+## Glimpse
+<p>
+    <img src="documentations/images/reacttodo.png" alt="todo-glimpse-1" />
 </p>
 
 ## How to Run
