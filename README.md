@@ -14,7 +14,7 @@
 ## General Info
 
 ## Technologies
-This calculator application leverages the power core web technologies of HTML for structure, CSS for styling, JavaScript for logic, and React.js for building modern and interactive components, resulting in a seamless and feature-rich calculator interface. 
+Built using HTML, CSS, JavaScript, and React, our Todo App offers a seamless and intuitive task management experience.logic, and React.js for building modern and interactive components, resulting in a seamless and feature-rich calculator interface. 
 <p>
     <a href="https://pytorch.org/" target="_blank" rel="noreferrer">
         <img src="https://img.shields.io/badge/HTML-e34c26?style=for-the-badge&logo=HTML&logoColor=white" alt="html"/>
