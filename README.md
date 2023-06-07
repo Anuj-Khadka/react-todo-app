@@ -15,6 +15,7 @@
 - [Other Details](#other-details)
 
 ## General Info
+React Todo App is a simple application built using React.js, HTML, CSS, and JavaScript. It allows users to manage and organize their tasks effectively. Users can add new tasks, mark tasks as completed, and delete tasks as needed. The app provides a clean and intuitive user interface, making it easy to navigate and interact with the task list. With React's component-based architecture and state management, the app offers a seamless and responsive user experience. Whether it's for personal or professional use, the React Todo App helps users stay organized and productive.
 
 ## Technologies
 Built using HTML, CSS, JavaScript, and React, our Todo App offers a seamless and intuitive task management experience.
