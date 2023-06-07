@@ -42,7 +42,7 @@ Built using HTML, CSS, JavaScript, and React, our Todo App offers a seamless and
 
 ## How to Run
 ### Live Demo
-Live demo at <a href="https://react-toodoo.netlify.app">Toodoo</a>
+Live demo at <a href="https://react-toodoos.netlify.app" target="_blank">Toodoo</a>
 
 ### Run Locally
 - Clone the reposiory in your local machine.
